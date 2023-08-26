@@ -1,5 +1,5 @@
 {
-  "name": "zest",
+  "name": "zest-encryption",
   "version": "1.0.0",
   "description": "Hybrid encryption powered by RSA and AES",
   "main": "index.js",
