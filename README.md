@@ -7,6 +7,9 @@ Zest is a simple encryption library designed to make your life easier, it handle
 ## Example Usage
 ```js
 const zest = require("zest-encryption");
+// or (ESM)
+import zest from 'zest-encryption';
+
 const fs = require("fs");
 
 // Encryption / decryption demo
