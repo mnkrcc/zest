@@ -1,6 +1,5 @@
 const zest = require("./index.js");
 
-// const previousKeyExport = "test";
 const key = new zest.EncryptionKey();
 
 const testString = "Moniker Zest Encryption Test"
