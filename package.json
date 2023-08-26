@@ -1,6 +1,6 @@
 {
   "name": "zest-encryption",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Hybrid encryption powered by RSA and AES",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/mnkrcc/zest.git"
   },
-  "keywords": [],
+  "keywords": [
+    "encrypt",
+    "encryption",
+    "simple",
+    "AES",
+    "RSA",
+    "Zest",
+    "hybrid"
+  ],
   "author": "Vihanga Weerasinghe (vihanga@mnkr.cc)",
   "license": "ISC",
   "bugs": {
