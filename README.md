@@ -1,10 +1,13 @@
-# Zest
-Hybrid encryption powered by RSA and AES.
+# Zest 🔐
+Sophisticated hybrid encryption leveraging the power of RSA and AES technologies.
 
-## What is Zest?
-Zest is a simple encryption library designed to make your life easier, it handles the complicated encryption stuff, so you can focus on writing secure code.
+## Introduction
+Zest is an elegantly crafted encryption library meticulously designed to alleviate the complexities of encryption, thereby enabling you to focus on creating secure and robust code. Developed by the team at Moniker ([github.com/mnkrcc](https://github.com/mnkrcc)), Zest is engineered with the primary objective of simplifying developers' lives by utilizing native NodeJS packages, thereby obviating the need for any additional dependencies.
 
-Zest uses native NodeJS packages so it does not require anything else to function.
+## Features
+- **Hybrid Encryption**: Seamlessly combines the strengths of RSA and AES encryption algorithms to deliver a robust and secure encryption solution.
+- **Effortless Key Management**: Automates key generation, export, and import, making key management a hassle-free process.
+- **Zero Additional Dependencies**: Leverages native NodeJS packages, eliminating the necessity for any external dependencies.
 
 ## Example Usage
 ```js
@@ -19,24 +22,31 @@ const key = new zest.EncryptionKey();
 
 key.createKey();
 
-const encrypted = key.encrypt("hi");
-const decrypted = key.decrypt(encrypted);
+const encryptedMessage = key.encrypt("Hello, World!");
+const decryptedMessage = key.decrypt(encryptedMessage);
 
-if (decrypted === "hi") {
-    console.log("It worked");
+if (decryptedMessage === "Hello, World!") {
+    console.log("Encryption and decryption successful!");
 }
 
 // Key export / import demo
 fs.writeFileSync(".key", key.export());
 
-const newKey = new zest.EncryptionKey(fs.readFileSync(".key").toString());
+const importedKey = new zest.EncryptionKey(fs.readFileSync(".key").toString());
 // or
-const manuallyImported = new zest.EncryptionKey();
+const manuallyImportedKey = new zest.EncryptionKey();
 
-manuallyImported.import(fs.readFileSync(".key").toString());
+manuallyImportedKey.import(fs.readFileSync(".key").toString());
 ```
 
 ## Notes
-When a new instance of `zest.EncryptionKey` is created, a new encryption key is created by default. This means that `key.createKey()` is not required to be called.
+- **Default Key Generation**: A new encryption key is automatically generated whenever a new instance of `zest.EncryptionKey` is instantiated. This implies that invoking `key.createKey()` is not mandatory.
+- **RSA Modulus Length**: The default RSA modulus length is 2048 bits. However, this can be customized by invoking the `key.createKey()` method.
 
-An RSA modulus length of 2048 is used by default, this can be overridden by using `key.createKey()`.
+## License
+Zest is released under the MIT license. For more information, please refer to the [license file](https://github.com/mnkrcc/zest/blob/main/LICENSE) in the repository.
+
+## Links
+- [NPM Package](https://www.npmjs.com/package/zest-encryption)
+- [NPM Runkit](https://npm.runkit.com/zest-encryption)
+- [GitHub Repository](https://github.com/mnkrcc/zest)

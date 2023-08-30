@@ -24,7 +24,7 @@
     "hybrid"
   ],
   "author": "Vihanga Weerasinghe (vihanga@mnkr.cc)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mnkrcc/zest/issues"
   },
