@@ -1,5 +1,5 @@
 # Zest 🔐
-### [![https://nodei.co/npm/zest-encryption.png?mini=true](https://nodei.co/npm/zest-encryption.png?mini=true)](https://www.npmjs.com/package/zest-encryption) [![Known Vulnerabilities](https://snyk.io/test/github/mnkrcc/zest/badge.svg)](https://snyk.io/test/github/mnkrcc/zest) [![npm version](https://badge.fury.io/js/zest-encryption.svg)](https://badge.fury.io/js/zest-encryption) [![HitCount](https://hits.dwyl.com/mnkrcc/zest.svg?style=flat-square)](http://hits.dwyl.com/mnkrcc/zest)
+### [![https://nodei.co/npm/zest-encryption.png?mini=true](https://nodei.co/npm/zest-encryption.png?mini=true)](https://www.npmjs.com/package/zest-encryption) [![Known Vulnerabilities](https://snyk.io/test/github/mnkrcc/zest/badge.svg)](https://snyk.io/test/github/mnkrcc/zest) [![npm version](https://badge.fury.io/js/zest-encryption.svg)](https://www.npmjs.com/package/zest-encryption?activeTab=versions) [![HitCount](https://hits.dwyl.com/mnkrcc/zest.svg?style=flat-square)](http://hits.dwyl.com/mnkrcc/zest)
 Sophisticated hybrid encryption leveraging the power of RSA and AES technologies.
 
 ## Introduction
