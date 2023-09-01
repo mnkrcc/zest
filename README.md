@@ -2,7 +2,7 @@
 Sophisticated hybrid encryption leveraging the power of RSA and AES technologies.
 
 ## Introduction
-Zest is an elegantly crafted encryption library meticulously designed to alleviate the complexities of encryption, thereby enabling you to focus on creating secure and robust code. Developed by the team at Moniker ([github.com/mnkrcc](https://github.com/mnkrcc)), Zest is engineered with the primary objective of simplifying developers' lives by utilizing native NodeJS packages, thereby obviating the need for any additional dependencies.
+Zest is a hybrid encryption library, developed by the team at Moniker ([github.com/mnkrcc](https://github.com/mnkrcc)), to simplify encryption for developers by abstracting away complicated methods.
 
 ## Features
 - **Hybrid Encryption**: Seamlessly combines the strengths of RSA and AES encryption algorithms to deliver a robust and secure encryption solution.
