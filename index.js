@@ -55,7 +55,7 @@ function _decryptWithRSA(ciphertext, privateKey) {
     );
 }
 
-function _encryptWithAES(plaintext, key, algorithm = "aes-256-gcm") {
+function _encryptWithAES(plaintext, key, algorithm = "aes-256-cbc") {
     const iVec = crypto.randomBytes(16);
 
     const cipher = crypto.createCipheriv(algorithm, key, iVec);
@@ -70,7 +70,7 @@ function _encryptWithAES(plaintext, key, algorithm = "aes-256-gcm") {
     };
 }
 
-function _decryptWithAES(ciphertext, key, algorithm = "aes-256-gcm") {
+function _decryptWithAES(ciphertext, key, algorithm = "aes-256-cbc") {
     const decipher = crypto.createDecipheriv(algorithm, key, Buffer.from(ciphertext._i, "hex"));
 
     let decryptedData = decipher.update(ciphertext.e, "hex", "utf-8");
