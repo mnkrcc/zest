@@ -1,4 +1,5 @@
 # Zest 🔐
+[![Known Vulnerabilities](https://snyk.io/test/github/mnkrcc/zest/badge.svg)](https://snyk.io/test/github/mnkrcc/zest)
 Sophisticated hybrid encryption leveraging the power of RSA and AES technologies.
 
 ## Introduction
