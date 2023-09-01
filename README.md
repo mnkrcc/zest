@@ -1,5 +1,5 @@
 # Zest 🔐
-### [![Known Vulnerabilities](https://snyk.io/test/github/mnkrcc/zest/badge.svg)](https://snyk.io/test/github/mnkrcc/zest)
+### [![Known Vulnerabilities](https://snyk.io/test/github/mnkrcc/zest/badge.svg)](https://snyk.io/test/github/mnkrcc/zest) [![npm version](https://badge.fury.io/js/zest-encryption.svg)](https://badge.fury.io/js/zest-encryption)
 Sophisticated hybrid encryption leveraging the power of RSA and AES technologies.
 
 ## Introduction
