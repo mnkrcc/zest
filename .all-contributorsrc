@@ -1,0 +1,25 @@
+{
+  "projectName": "Zest",
+  "projectOwner": "VihangaTheTurtle",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "ceodavee",
+      "name": "David",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93440331?v=4",
+      "profile": "https://github.com/ceodavee",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": true
+}
