@@ -1,6 +1,6 @@
 {
   "name": "zest-encryption",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Hybrid encryption powered by RSA and AES",
   "main": "index.js",
   "scripts": {
