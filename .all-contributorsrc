@@ -27,6 +27,15 @@
       "contributions": [
         "userTesting"
       ]
+    },
+    {
+      "login": "vihangatheturtle",
+      "name": "VihangaTheTurtle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43118457?v=4",
+      "profile": "https://github.com/vihangatheturtle",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
