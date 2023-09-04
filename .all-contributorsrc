@@ -6,7 +6,7 @@
   "files": [
     "README.md"
   ],
-  "imageSize": 100,
+  "imageSize": 50,
   "commit": true,
   "commitConvention": "angular",
   "contributors": [
@@ -17,6 +17,15 @@
       "profile": "https://github.com/ceodavee",
       "contributions": [
         "doc"
+      ]
+    },
+    {
+      "login": "mjk134",
+      "name": "mjk134",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57556877?v=4",
+      "profile": "https://www.youtube.com/mjk134",
+      "contributions": [
+        "userTesting"
       ]
     }
   ],

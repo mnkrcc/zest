@@ -62,7 +62,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ceodavee"><img src="https://avatars.githubusercontent.com/u/93440331?v=4?s=100" width="100px;" alt="David"/><br /><sub><b>David</b></sub></a><br /><a href="https://github.com/VihangaTheTurtle/Zest/commits?author=ceodavee" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ceodavee"><img src="https://avatars.githubusercontent.com/u/93440331?v=4?s=50" width="50px;" alt="David"/><br /><sub><b>David</b></sub></a><br /><a href="https://github.com/VihangaTheTurtle/Zest/commits?author=ceodavee" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.youtube.com/mjk134"><img src="https://avatars.githubusercontent.com/u/57556877?v=4?s=50" width="50px;" alt="mjk134"/><br /><sub><b>mjk134</b></sub></a><br /><a href="#userTesting-mjk134" title="User Testing">📓</a></td>
     </tr>
   </tbody>
   <tfoot>
