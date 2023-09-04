@@ -1,4 +1,4 @@
-import zest from './index.js';
+import zest from './index.mjs';
 
 const key = new zest.EncryptionKey();
 
