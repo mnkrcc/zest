@@ -62,7 +62,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ceodavee"><img src="https://avatars.githubusercontent.com/u/93440331?v=4?s=50" width="50px;" alt="David"/><br /><sub><b>David</b></sub></a><br /><a href="https://github.com/VihangaTheTurtle/Zest/commits?author=ceodavee" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/d-suter"><img src="https://avatars.githubusercontent.com/u/93440331?v=4?s=50" width="50px;" alt="David"/><br /><sub><b>David</b></sub></a><br /><a href="https://github.com/VihangaTheTurtle/Zest/commits?author=ceodavee" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/mjk134"><img src="https://avatars.githubusercontent.com/u/57556877?v=4?s=50" width="50px;" alt="mjk134"/><br /><sub><b>mjk134</b></sub></a><br /><a href="#userTesting-mjk134" title="User Testing">📓</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/vihangatheturtle"><img src="https://avatars.githubusercontent.com/u/43118457?v=4?s=50" width="50px;" alt="VihangaTheTurtle"/><br /><sub><b>VihangaTheTurtle</b></sub></a><br /><a href="https://github.com/VihangaTheTurtle/Zest/commits?author=vihangatheturtle" title="Code">💻</a></td>
     </tr>
