@@ -1,5 +1,6 @@
 # Zest 🔐
-### [![https://nodei.co/npm/zest-encryption.png?mini=true](https://nodei.co/npm/zest-encryption.png?mini=true)](https://www.npmjs.com/package/zest-encryption) [![Known Vulnerabilities](https://snyk.io/test/github/mnkrcc/zest/badge.svg)](https://snyk.io/test/github/mnkrcc/zest) [![npm version](https://badge.fury.io/js/zest-encryption.svg)](https://www.npmjs.com/package/zest-encryption?activeTab=versions) [![HitCount](https://hits.dwyl.com/mnkrcc/zest.svg?style=flat-square)](http://hits.dwyl.com/mnkrcc/zest)
+### [![https://nodei.co/npm/zest-encryption.png?mini=true](https://nodei.co/npm/zest-encryption.png?mini=true)](https://www.npmjs.com/package/zest-encryption) [![Known Vulnerabilities](https://snyk.io/test/github/mnkrcc/zest/badge.svg)](https://snyk.io/test/github/mnkrcc/zest) [![npm downloads](https://img.shields.io/npm/dt/zest-encryption?labelColor=090C16&color=FFADC6)](https://www.npmjs.com/package/zest-encryption) [![npm version](https://img.shields.io/npm/v/zest-encryption?label=npm%20version&labelColor=090C16&color=FFADC6)](https://www.npmjs.com/package/zest-encryption?activeTab=versions) ![GitHub hits](https://img.shields.io/endpoint?label=GitHub%20hits&url=https%3A%2F%2Fhits.dwyl.com%2Fmnkrcc%2Fzest.json%3FlabelColor%3D090C16%26color%3DFFADC6)
+
 Sophisticated hybrid encryption leveraging the power of RSA and AES technologies.
 
 ## Introduction
