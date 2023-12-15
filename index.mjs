@@ -1,7 +1,8 @@
 // Zest - Hybrid encryption powered by RSA and AES
 // This file provides functions for utilising Zest's encryption schemes
 
-import crypto from 'crypto';
+import crypto from "crypto";
+import sha256 from "sha256";
 
 function _generateRSAKeypair(modulusLength = 2048) {
     const { publicKey, privateKey } = crypto.generateKeyPairSync("rsa", {
@@ -80,15 +81,34 @@ function _decryptWithAES(ciphertext, key, algorithm = "aes-256-cbc") {
     return decryptedData;
 }
 
+function _signWithRSA(message, privateKey) {
+    const signature = crypto.sign("sha256", Buffer.from(message), {
+        key: privateKey,
+        padding: crypto.constants.RSA_PKCS1_PSS_PADDING,
+    });
+
+    return signature.toString("hex");
+}
+
+function _verifySignatureWithRSA(signature, message, publicKey) {
+    return crypto.verify("sha256", Buffer.from(message), {
+        key: publicKey,
+        padding: crypto.constants.RSA_PKCS1_PSS_PADDING,
+    }, signature);
+}
 class EncryptionKey {
+    setKey(keyPayload) {
+        this.id = sha256(JSON.stringify(keyPayload._RSA.exported.public) + sha256(keyPayload._AES.toString("hex") + ".mnkr")).slice(0, 16);
+        this._key = keyPayload;
+    }
     createKey(RSAModulusLength = 2048) {
         const RSAKeypair = _generateRSAKeypair(RSAModulusLength);
         const AESSecret = _generateAESKey();
 
-        this._key = {
+        this.setKey({
             _RSA: RSAKeypair,
             _AES: AESSecret
-        }
+        });
     }
     encrypt(plaintext) {
         // Generate random AES secret used for this encryption
@@ -131,6 +151,14 @@ class EncryptionKey {
         const plaintext = _decryptWithAES(encryptedPayload.payload, tempAESSecret);
 
         return plaintext;
+    }
+    sign(message) {
+        return _signWithRSA(message, this._key._RSA.privateKey);
+    }
+    verify(message, signature, publicKey) {
+        if (!publicKey) publicKey = this._key._RSA.publicKey;
+
+        return _verifySignatureWithRSA(Buffer.from(signature, "hex"), message, publicKey);
     }
     export() {
         const rsaSecuredAESSecret = _generateAESKey();
@@ -198,12 +226,14 @@ class EncryptionKey {
 
         const loadedAESKey = Buffer.from(decryptedAES, "hex");
 
-        this._key = {
+        this.setKey({
             _RSA: RSAPayload,
             _AES: loadedAESKey
-        }
+        });
     }
     constructor(loadKeyObject) {
+        this.id = undefined;
+
         if (!loadKeyObject) {
             this.createKey();
         } else {

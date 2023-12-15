@@ -1,6 +1,6 @@
 {
   "name": "zest-encryption",
-  "version": "1.0.12",
+  "version": "1.0.14",
   "description": "Hybrid encryption powered by RSA and AES",
   "main": "index.js",
   "scripts": {
@@ -33,5 +33,8 @@
   "homepage": "https://github.com/mnkrcc/zest#readme",
   "devDependencies": {
     "all-contributors-cli": "^6.26.1"
+  },
+  "dependencies": {
+    "sha256": "^0.2.0"
   }
 }
